@@ -18,8 +18,8 @@ def find_valid_calls(planeteer_calls)
   while count < valid_calls.length
 
   planeteer_calls.find do |element|
-    element == valid_calls[count]
-
+    if element == valid_calls[count]
+      puts element
     end
     count += 1
     end
