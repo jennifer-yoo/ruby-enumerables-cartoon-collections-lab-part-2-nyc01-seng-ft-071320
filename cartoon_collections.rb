@@ -21,5 +21,6 @@ def find_valid_calls(planeteer_calls)
     element == valid_calls[count]
 
     end
+    count += 1
     end
 end
