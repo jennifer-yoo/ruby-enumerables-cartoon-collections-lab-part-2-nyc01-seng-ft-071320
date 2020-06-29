@@ -14,15 +14,9 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  count = 0
 
   planeteer_calls.select do |element|
-    loop do
-      count += 1
-      if valid_call[count] == element
-        break
-        puts element
-      end
-    end
+    element == valid_calls
+    element
   end
 end
