@@ -19,6 +19,6 @@ def find_valid_calls(planeteer_calls)
   while count < valid_calls.length
     count += 1
 
-    planeteer_calls.find { |element|  element == valid_calls[1] }
+    planeteer_calls.find { |element|  element == valid_calls[0] }
   end
 end
