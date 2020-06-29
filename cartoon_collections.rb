@@ -19,5 +19,6 @@ valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
     if valid_calls.include?(element)
       puts element
     end
+  end
 
 end
