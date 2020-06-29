@@ -18,5 +18,6 @@ valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find do |element|
     if valid_calls.include?(element)
       puts element
+    end
 
 end
